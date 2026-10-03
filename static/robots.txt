@@ -1,0 +1,6 @@
+# SPDX-FileCopyrightText: 2026 Harish Rajagopal <harish.rajagopals@gmail.com>
+#
+# SPDX-License-Identifier: 0BSD
+
+User-agent: *
+Sitemap: https://rharish.dev/sitemap.xml

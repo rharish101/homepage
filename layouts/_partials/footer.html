@@ -1,0 +1,27 @@
+<!--
+SPDX-FileCopyrightText: 2018 Luiz F. A. de Prá
+SPDX-FileCopyrightText: 2026 Harish Rajagopal <harish.rajagopals@gmail.com>
+
+SPDX-License-Identifier: MIT
+-->
+<footer class="footer">
+  <section class="container">
+    ©
+    {{ if (and .Site.Params.since (lt .Site.Params.since now.Year)) }}
+      {{ .Site.Params.since }} -
+    {{ end }}
+    {{ now.Year }}
+    {{ with .Site.Params.author }} {{ . }} {{ end }}
+    ·
+    {{ if (and .Site.Params.license) }}
+      {{ i18n "licensed_under" }} {{ .Site.Params.license | safeHTML }}
+    ·
+    {{ end }}
+    {{ i18n "powered_by" }} <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    {{ if (and .Site.Params.commit .GitInfo) }}
+      [<a href="{{ .Site.Params.commit }}/tree/{{ .GitInfo.Hash }}" target="_blank" rel="noopener">{{ .GitInfo.AbbreviatedHash }}</a>]
+    {{ else if .Site.Params.commit }}
+      · <a href="{{ .Site.Params.commit }}" target="_blank" rel="noopener">Source</a>
+    {{ end }}
+  </section>
+</footer>

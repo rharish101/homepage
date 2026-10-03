@@ -1,0 +1,42 @@
+# SPDX-FileCopyrightText: 2026 Harish Rajagopal <harish.rajagopals@gmail.com>
+#
+# SPDX-License-Identifier: 0BSD
+
+baseURL = "https://rharish.dev/"
+locale = "en-in"
+title = "Harish's Homepage"
+theme = "coder"
+enableGitInfo = true
+
+[params]
+author = "Harish Rajagopal"
+info = "MSc CS, ETH Zürich"
+description = "Personal homepage of Harish Rajagopal"
+keywords = "personal homepage, personal website"
+gravatar = "harish.rajagopals@gmail.com"
+since = "2026"
+colorScheme = "auto"
+commit = "https://github.com/rharish101/homepage"
+
+[[params.social]]
+name = "GitHub"
+icon = "fa-brands fa-github fa-2x"
+weight = 1
+url = "https://github.com/rharish101/"
+
+[[params.social]]
+name = "LinkedIn"
+icon = "fa-brands fa-linkedin fa-2x"
+weight = 2
+url = "https://www.linkedin.com/in/rharish101/"
+
+[[params.social]]
+name = "Email"
+icon = "fa-solid fa-envelope fa-2x"
+weight = 3
+url = "mailto:harish.rajagopals@gmail.com"
+
+[[menu.main]]
+name = "Resume"
+weight = 1
+url  = "https://github.com/rharish101/resume/releases/latest/download/resume.pdf"
