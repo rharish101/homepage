@@ -3,4 +3,4 @@
 # SPDX-License-Identifier: 0BSD
 
 User-agent: *
-Sitemap: https://rharish.dev/sitemap.xml
+Sitemap: https://www.rharish.dev/sitemap.xml

@@ -7,7 +7,7 @@ SPDX-License-Identifier: 0BSD
 # My Personal Homepage
 
 This is the source code for my personal homepage, that uses [Hugo](https://gohugo.io/) and the [Coder theme for Hugo](https://github.com/luizdepra/hugo-coder/).
-It is self-hosted at <https://rharish.dev>.
+It is self-hosted at <https://www.rharish.dev>.
 
 ## Licenses
 

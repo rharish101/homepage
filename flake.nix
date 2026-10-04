@@ -37,7 +37,7 @@
 
           meta = with pkgs.lib; {
             description = "Personal homepage of Harish Rajagopal";
-            homepage = "https://rharish.dev/";
+            homepage = "https://www.rharish.dev/";
             repository = "https://github.com/rharish101/homepage";
             license = licenses.mit;
             platforms = platforms.all;

@@ -2,7 +2,7 @@
 #
 # SPDX-License-Identifier: 0BSD
 
-baseURL = "https://rharish.dev/"
+baseURL = "https://www.rharish.dev/"
 locale = "en-in"
 title = "Harish's Homepage"
 theme = "coder"
